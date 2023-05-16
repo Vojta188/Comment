@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #141414;
+    color: #e5e5e5;
+}
+
+
+form {
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.name {
+    margin-bottom: 10px;
+    outline: none;
+}
+
+
+input[type="submit"] {
+    background-color: #e50914;
+    color: #e5e5e5;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.textArea{
+    border: none;
+    margin-bottom: 10px;
+}
